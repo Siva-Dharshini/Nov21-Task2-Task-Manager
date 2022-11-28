@@ -1,0 +1,48 @@
+*{
+    background-color: aquamarine;
+}
+body{
+    margin:100px 100px;  
+
+}
+h1{
+    color:brown;
+}
+h2{
+    color:crimson;
+    
+}
+
+li{
+    list-style-type: none;
+    color:darkslategray;
+}
+.navigation{
+    background-color:cornflowerblue;
+    color:indianred;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+
+}
+.navigation a{
+    text-decoration: none;
+    text-align: center;
+    background-color: burlywood;
+    color: black;
+}
+
+.box{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:darkgrey;
+    text-align: center;
+}
+.box-cont{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
